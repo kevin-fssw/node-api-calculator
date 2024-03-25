@@ -1,0 +1,15 @@
+{
+  "name": "node-api-calculator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-gyp configure && node-gyp build",
+    "start": "npm run build && node index.js"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.0.0",
+    "node-gyp": "^10.0.1"
+  }
+}
