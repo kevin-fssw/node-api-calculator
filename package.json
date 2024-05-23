@@ -10,6 +10,7 @@
   "dependencies": {
     "bindings": "^1.5.0",
     "node-addon-api": "^8.0.0",
-    "node-gyp": "^10.0.1"
+    "node-gyp": "^10.1.0",
+    "pkg": "^5.8.1"
   }
 }

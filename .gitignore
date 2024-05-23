@@ -130,5 +130,4 @@ dist
 .pnp.*
 
 build
-package-lock.json
-package.json
+.vscode/c_cpp_properties.json
